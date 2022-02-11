@@ -22,6 +22,7 @@ type user struct {
 	// Device	string	`json:"device"`
 	UserID  string `json:"id"`
 	UserRGB []int8 `json:"usercolor"`
+	a
 }
 
 /***************METHODS******************/
