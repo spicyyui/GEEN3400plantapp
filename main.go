@@ -20,8 +20,8 @@ type pot struct {
 // iOS Device Interacts with These Values
 type user struct {
 	// Device	string	`json:"device"`
-	UserID  string `json:"id"`
-	UserRGB []int8 `json:"usercolor"`
+	UserID    string `json:"id"`
+	UserColor []int8 `json:"usercolor"`
 }
 
 /***************METHODS******************/
